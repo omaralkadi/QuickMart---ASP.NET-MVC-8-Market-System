@@ -1,0 +1,73 @@
+﻿@using DAL.Entities
+@model IEnumerable<Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Your Orders</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            You haven't placed any orders yet.
+        </div>
+    }
+    else
+    {
+        <div class="accordion" id="orderAccordion">
+            @foreach (var order in Model)
+            {
+                <div class="card mb-3">
+                    <div class="card-header" id="heading-@order.Id">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link text-decoration-none" type="button" data-toggle="collapse" data-target="#collapse-@order.Id" aria-expanded="true" aria-controls="collapse-@order.Id">
+                                Order #@order.Id - @order.OrderDate.ToString("dd/MM/yyyy")
+                            </button>
+                            <span class="">Total: @order.TotalPrice.ToString("C")</span>
+                        </h5>
+                    </div>
+
+                    <div id="collapse-@order.Id" class="collapse" aria-labelledby="heading-@order.Id" data-parent="#orderAccordion">
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in order.OrderItems)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <img src="~/Files/Images/@item.Product.Image" alt="@item.Product.Name" style="width: 50px; height: 50px;">
+                                            </td>
+                                            <td>@item.Product.Name</td>
+                                            <td>@item.Quantity</td>
+                                            <td>@item.Price.ToString("C")</td>
+                                            <td>@(item.Quantity * item.Price)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts{
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+}

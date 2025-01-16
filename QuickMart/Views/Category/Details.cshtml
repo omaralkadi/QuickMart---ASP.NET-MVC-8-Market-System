@@ -1,0 +1,23 @@
+﻿@using DAL.Entities
+@model Category
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h4 style="text-align:center;background-color:ghostwhite">Details Of @Model.Name</h4>
+
+<form class="form">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" readonly />
+    </div>
+    <br />
+    <button asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</button>
+    <button asp-action="Index" class="btn btn-secondary">Back</button>
+</form>
+

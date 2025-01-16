@@ -1,0 +1,54 @@
+﻿@using DAL.Entities
+@model Product
+@{
+    ViewData["Title"] = "Details";
+    var Categories = new SelectList(ViewBag.Categories, "Id", "Name");
+
+}
+
+<h4 style="text-align:center;background-color:ghostwhite">Details Of Product</h4>
+
+<div class="form-group">
+    <label asp-for="Image" class="control-label">Current Image</label>
+    <img src="~/Files/Images/@Model.Image" alt="Product Image" class="img-thumbnail" style="width: 150px; height: 150px;" />
+</div>
+
+<form class="form">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" readonly/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" readonly />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" readonly />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" type="file" class="form-control" readonly />
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="category"></label>
+        <select class="form-select" asp-items="Categories" asp-for="CategoryId" disabled>
+            <option value="@null">Select Category</option>
+        </select>
+        <span asp-validation-for="category" class="text-danger"></span>
+    </div>
+
+    <br />
+    <button asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary">Update</button>
+    <button asp-action="Index" class="btn btn-secondary">Back</button>
+
+</form>
+

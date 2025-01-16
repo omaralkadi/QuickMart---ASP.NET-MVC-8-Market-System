@@ -1,0 +1,15 @@
+D:\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.dll
+D:\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.pdb
+D:\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\DAL.dll
+D:\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\DAL.pdb
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.dll
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll

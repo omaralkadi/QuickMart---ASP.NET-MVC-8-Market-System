@@ -1,0 +1,120 @@
+﻿@using QuickMart.ViewModels
+@model CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Checkout</h2>
+<div class="row">
+    <div class="col-md-8">
+        <h3>Order Summary</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td><img src="~/Files/Images/@item.Product.Image" style="width:40px;height:40px" /></td>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Product.Price.ToString("C")</td>
+                        <td>@(item.Quantity * item.Product.Price)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-4">
+        <h3>Checkout Details</h3>
+        <form asp-action="Checkout" method="post" id="checkoutForm">
+            <div class="form-group">
+                <label for="BillingAddress">Billing Address</label>
+                <input type="text" name="BillingAddress" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="ShippingAddress">Shipping Address</label>
+                <input type="text" name="ShippingAddress" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="text" name="Phone" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="PaymentMethod">Payment Method</label>
+                <select name="PaymentMethod" class="form-control" required>
+                    <option value="Visa">Visa</option>
+                    <option value="Cash">Cash</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Total Amount</label>
+                <input type="text" value="@Model.TotalAmount.ToString("C")" class="form-control" readonly />
+            </div>
+            <button type="submit" class="btn btn-success place-order-btn">Place Order</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).on('submit', '#checkoutForm', function (e) {
+            e.preventDefault(); // Prevent the default form submission
+
+            const form = $(this); // Reference to the form
+            const url = form.attr('action'); // Get the action URL
+            const formData = form.serialize(); // Serialize form data for submission
+
+            $.ajax({
+                url: url,
+                type: 'POST', // Use POST for form submission
+                data: formData, // Send serialized form data
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            toast: true,
+                            position: 'center', // Position the alert in the top-right corner
+                            icon: 'success',
+                            title: response.message || 'Order placed successfully!',
+                            showConfirmButton: false,
+                            timer: 2000, // Auto-dismiss after 2 seconds
+                            timerProgressBar: true
+                        });
+
+                        // Redirect to another page if needed (e.g., Order Confirmation)
+                        setTimeout(() => {
+                            window.location.href = '/Home';
+                        }, 2000);
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text:'Failed to place the order. Please try again.'
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'An error occurred',
+                        text: 'Unable to process your request. Please try again later.'
+                    });
+                }
+            });
+        });
+    </script>
+
+}

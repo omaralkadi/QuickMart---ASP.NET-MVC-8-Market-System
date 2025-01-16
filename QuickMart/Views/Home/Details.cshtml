@@ -1,0 +1,82 @@
+﻿@using DAL.Entities
+@model Product
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="product-details">
+    <h2>@Model.Name</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/Files/Images/@Model.Image" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h4>Price: <span class="text-success">@Model.Price.ToString("C")</span></h4>
+            <p>@Model.Description</p>
+
+            <a asp-action="AddToCart"
+               asp-controller="Cart"
+               asp-route-productId="@Model.Id"
+               class="btn btn-success btn-sm add-to-cart-btn"
+               data-product-id="@Model.Id"
+               style="flex: 1; margin-left: 5px;">
+                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </a>
+            <div>
+            <a asp-action="Index" class="btn btn-secondary btn-sm mt-3"><i class="fa-solid fa-backward"></i> Back to Products</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-details img {
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: #f9f9f9;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        $(document).on('click', '.add-to-cart-btn', function (e) {
+            e.preventDefault(); // Prevent the default anchor behavior
+
+            const productId = $(this).data('product-id');
+            const url = $(this).attr('href'); // Get the URL from the button's href
+
+            $.ajax({
+                url: url,
+                type: 'GET', // Use GET since your action is an HttpGet
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            toast: true,
+                            position: 'top-start', // Position the alert in the top-right corner
+                            icon: 'success',
+                            title: response.message,
+                            showConfirmButton: false,
+                            timer: 1000, // Auto-dismiss after 2 seconds
+                            timerProgressBar: false // Show a progress bar during the timer
+                        });
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-start', // Position the alert in the top-right corner
+                        icon: 'error',
+                        title: 'An error occurred while adding the product to the cart.',
+                        showConfirmButton: false,
+                        timer: 3000, // Auto-dismiss after 3 seconds
+                        timerProgressBar: false // Show a progress bar during the timer
+                    });
+                }
+            });
+        });
+
+    </script>
+}

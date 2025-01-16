@@ -1,0 +1,126 @@
+﻿@using DAL.Entities
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-5 fw-bold" style="color:darkseagreen">Welcome to QuickMart</h1>
+    <p style="color:cornflowerblue">Buy your favorite products at the best prices</p>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        @* <a class="navbar-brand" href="#">QuickMart</a> *@
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index">All Products</a>
+                </li>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-route-CategoryName="@category.Name">@category.Name</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@if (!Model.Any())
+{
+
+    <div class="alert alert-info text-center">
+        No Items Found !!
+    </div>
+
+}
+else
+{
+    <div class="container">
+        <div class="row justify-content-center">
+            @foreach (var product in Model)
+            {
+                <div class="card shadow-sm" style="width: 18rem; margin: 15px; border-radius: 10px; display: flex; flex-direction: column;">
+                    <img src="~/Files/Images/@product.Image" class="card-img-top" alt="Product Image"
+                         style="height: 200px; object-fit: contain; border-radius: 10px 10px 0 0;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title text-center" style="color: brown; font-weight: bold;">@product.Name</h5>
+                            <p class="card-text text-muted text-center" style="font-size: 14px;">@product.Description</p>
+                            <p class="card-text text-center" style="color: limegreen; font-size: 18px; font-weight: bold;">
+                                @product.Price.ToString("C")
+                            </p>
+
+                        </div>
+
+
+                        <!-- Button Section -->
+                        <div class="d-flex justify-content-between mt-3">
+                            <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary btn-sm"
+                               style="flex: 1; margin-right: 5px;">
+                                <i class="fa-solid fa-eye"></i> View
+                            </a>
+                            <a asp-action="AddToCart"
+                               asp-controller="Cart"
+                               asp-route-productId="@product.Id"
+                               class="btn btn-success btn-sm add-to-cart-btn"
+                               data-product-id="@product.Id"
+                               style="flex: 1; margin-left: 5px;">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+@section Scripts{
+    <script>
+        $(document).on('click', '.add-to-cart-btn', function (e) {
+            e.preventDefault(); // Prevent the default anchor behavior
+
+            const productId = $(this).data('product-id');
+            const url = $(this).attr('href'); // Get the URL from the button's href
+
+            $.ajax({
+                url: url,
+                type: 'GET', // Use GET since your action is an HttpGet
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            toast: true,
+                            position: 'top-start', // Position the alert in the top-right corner
+                            icon: 'success',
+                            title: response.message,
+                            showConfirmButton: false,
+                            timer: 1000, // Auto-dismiss after 2 seconds
+                            timerProgressBar: false // Show a progress bar during the timer
+                        });
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-start', // Position the alert in the top-right corner
+                        icon: 'error',
+                        title: 'An error occurred while adding the product to the cart.',
+                        showConfirmButton: false,
+                        timer: 3000, // Auto-dismiss after 3 seconds
+                        timerProgressBar: false // Show a progress bar during the timer
+                    });
+                }
+            });
+        });
+
+    </script>
+}

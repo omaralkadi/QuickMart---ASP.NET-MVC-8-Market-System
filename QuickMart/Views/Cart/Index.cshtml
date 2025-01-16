@@ -1,0 +1,69 @@
+﻿@using DAL.Entities
+@model IEnumerable<CartItem>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">
+        No Items Found !!
+    </div>
+}
+else
+{
+    <div class="container">
+        <h2>Your Cart</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>+/-</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="~/Files/Images/@item.Product.Image" style="width:100px;height:100px" /></td>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@(item.Quantity * item.Price)</td>
+
+                        <td>
+                            <form asp-action="InCreaseQuntity">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-primary btn-sm">+</button>
+                            </form>
+                            <form asp-action="DeCreaseQuntity">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-warning btn-sm">-</button>
+                            </form>
+                        </td>
+
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+        <span style="font-size:20px;font-weight:600">Total Price: </span><span style="color:darkgreen;font-size:20px;font-weight:600">@Model.Sum(item => item.Quantity * item.Price).ToString("C")</span>
+
+        <span><a class="btn btn-primary float-end" asp-action="Checkout" asp-controller="Cart">CheckOut</a></span>
+
+    </div>
+}

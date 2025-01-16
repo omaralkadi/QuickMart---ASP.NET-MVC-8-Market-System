@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QuickMartProject\\QuickMart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5061DF26-41B2-4178-A385-7119734F2DF5}|QuickMart\\QuickMart.csproj|d:\\quickmartproject\\quickmart\\quickmart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5061DF26-41B2-4178-A385-7119734F2DF5}|QuickMart\\QuickMart.csproj|solutionrelative:quickmart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5061DF26-41B2-4178-A385-7119734F2DF5}|QuickMart\\QuickMart.csproj|d:\\quickmartproject\\quickmart\\quickmart\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5061DF26-41B2-4178-A385-7119734F2DF5}|QuickMart\\QuickMart.csproj|solutionrelative:quickmart\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0557617E-A0D7-465A-91CE-6CE09639D62C}|DAL\\DAL.csproj|d:\\quickmartproject\\quickmart\\dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0557617E-A0D7-465A-91CE-6CE09639D62C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\QuickMartProject\\QuickMart\\QuickMart\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "QuickMart\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\QuickMartProject\\QuickMart\\QuickMart\\Controllers\\CartController.cs",
+              "RelativeToolTip": "QuickMart\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAADwv6IAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:59:58.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\QuickMartProject\\QuickMart\\QuickMart\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "QuickMart\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\QuickMartProject\\QuickMart\\QuickMart\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "QuickMart\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T23:58:57.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\QuickMartProject\\QuickMart\\DAL\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Order.cs",
+              "ToolTip": "D:\\QuickMartProject\\QuickMart\\DAL\\Entities\\Order.cs",
+              "RelativeToolTip": "DAL\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:57:28.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
