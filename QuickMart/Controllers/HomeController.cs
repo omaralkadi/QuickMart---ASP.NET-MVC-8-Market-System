@@ -18,6 +18,7 @@ namespace QuickMart.Controllers
             _unitOfWork = unitOfWork;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index(string CategoryName)
         {
 

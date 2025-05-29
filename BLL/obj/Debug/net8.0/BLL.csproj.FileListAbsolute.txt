@@ -13,3 +13,74 @@ D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.dll
 D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
 D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\DAL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\DAL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll

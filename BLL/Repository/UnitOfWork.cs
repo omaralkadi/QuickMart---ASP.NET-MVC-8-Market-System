@@ -17,8 +17,9 @@ namespace BLL.Repository
         public ICartItemRepo CartItemRepo { get; set; }
         public IOrderRepo OrderRepo { get; set; }
         public IOrderItemRepo OrderItemRepo { get; set; }
+        public IPaymobService PaymobService { get; set; }
 
-        public UnitOfWork(QuickMartContext quickMartContext, ICategoryRepo categoryRepo, IProductRepo productRepo, ICartRepo cartRepo, ICartItemRepo cartItemRepo, IOrderRepo orderRepo, IOrderItemRepo orderItemRepo)
+        public UnitOfWork(QuickMartContext quickMartContext, ICategoryRepo categoryRepo, IProductRepo productRepo, ICartRepo cartRepo, ICartItemRepo cartItemRepo, IOrderRepo orderRepo, IOrderItemRepo orderItemRepo,IPaymobService paymobService)
         {
             _quickMartContext = quickMartContext;
             CategoryRepo = categoryRepo;
@@ -27,6 +28,7 @@ namespace BLL.Repository
             CartItemRepo = cartItemRepo;
             OrderRepo = orderRepo;
             OrderItemRepo = orderItemRepo;
+            PaymobService = paymobService;
         }
         public async Task<int> Complete()
         {

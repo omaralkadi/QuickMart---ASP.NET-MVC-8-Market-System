@@ -1,0 +1,42 @@
+﻿@using DAL.Entities
+@model Order
+@{
+    ViewData["Title"] = "Payment Failed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-danger">
+                <div class="card-header bg-danger text-white text-center">
+                    <h2><i class="fas fa-times-circle"></i> Payment Failed</h2>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <h4 class="text-danger">We're sorry, your payment could not be processed.</h4>
+                        <p class="lead">Please try again or choose a different payment method.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5>Order Details:</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Order ID:</strong> #@Model.Id</li>
+                                <li><strong>Order Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</li>
+                                <li><strong>Total Amount:</strong> @Model.TotalPrice.ToString("C")</li>
+                                <li><strong>Payment Status:</strong> <span class="badge badge-danger">@Model.PaymentStatus</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a href="/Home" class="btn btn-primary">Continue Shopping</a>
+                        <a href="/Orders" class="btn btn-secondary">View My Orders</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,8 +1,10 @@
 ﻿using BLL.Interface;
+using BLL.Repository;
 using DAL.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using QuestPDF.Fluent;
 using QuickMart.Helpers;
 
 namespace QuickMart.Controllers
@@ -125,6 +127,15 @@ namespace QuickMart.Controllers
             _unitOfWork.ProductRepo.Delete(product);
             await _unitOfWork.Complete();
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetReport()
+        {
+            var products=await _unitOfWork.ProductRepo.GetAllAsync();
+            var document = new ProductReport(products);
+            var pdf = document.GeneratePdf();
+            return File(pdf, "application/pdf", "ProductReport.pdf");
         }
     }
 

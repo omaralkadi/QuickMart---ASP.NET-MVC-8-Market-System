@@ -20,5 +20,13 @@ namespace DAL.Entities
         public string ShippingAddress { get; set; }
         public string Phone { get; set; }
         public string PaymentMethod { get; set; } // "Visa" or "Cash"
+
+
+        //for payment
+        public string PaymentStatus { get; set; } = "Pending"; // Pending, Paid, Failed
+        public string? PaymobOrderId { get; set; }
+        public string? PaymentToken { get; set; }
+        public string? PaymobTransactionId { get; set; }
+        public DateTime? PaymentDate { get; set; }
     }
 }

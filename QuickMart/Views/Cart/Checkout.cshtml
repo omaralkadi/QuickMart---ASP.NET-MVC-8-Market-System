@@ -1,10 +1,10 @@
 ﻿@using QuickMart.ViewModels
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
 @model CheckoutViewModel
 @{
     ViewData["Title"] = "Checkout";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 
 <h2>Checkout</h2>
 <div class="row">
@@ -24,7 +24,7 @@
                 @foreach (var item in Model.CartItems)
                 {
                     <tr>
-                        <td><img src="~/Files/Images/@item.Product.Image" style="width:40px;height:40px" /></td>
+                        <td><img src="~/Files/Images/@item.Product.Image" style="width:40px;height:40px" alt="@item.Product.Name" /></td>
                         <td>@item.Product.Name</td>
                         <td>@item.Quantity</td>
                         <td>@item.Product.Price.ToString("C")</td>
@@ -39,26 +39,23 @@
         <form asp-action="Checkout" method="post" id="checkoutForm">
             <div class="form-group">
                 <label for="BillingAddress">Billing Address</label>
-                <input type="text" name="BillingAddress" class="form-control" required />
+                <input type="text" id="BillingAddress" name="BillingAddress" class="form-control" required />
             </div>
             <div class="form-group">
                 <label for="ShippingAddress">Shipping Address</label>
-                <input type="text" name="ShippingAddress" class="form-control" required />
+                <input type="text" id="ShippingAddress" name="ShippingAddress" class="form-control" required />
             </div>
-
             <div class="form-group">
                 <label for="Phone">Phone</label>
-                <input type="text" name="Phone" class="form-control" required />
+                <input type="text" id="Phone" name="Phone" class="form-control" required />
             </div>
-
             <div class="form-group">
                 <label for="PaymentMethod">Payment Method</label>
-                <select name="PaymentMethod" class="form-control" required>
-                    <option value="Visa">Visa</option>
-                    <option value="Cash">Cash</option>
+                <select id="PaymentMethod" name="PaymentMethod" class="form-control" required>
+                    <option value="Visa">Online Payment (Visa/Mastercard)</option>
+                    <option value="Cash">Cash on Delivery</option>
                 </select>
             </div>
-
             <div class="form-group">
                 <label>Total Amount</label>
                 <input type="text" value="@Model.TotalAmount.ToString("C")" class="form-control" readonly />
@@ -68,53 +65,101 @@
     </div>
 </div>
 
+<!-- Payment Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Complete Payment</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="payment-iframe-container" style="height: 600px;">
+                    <!-- Paymob iframe will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        $(document).on('submit', '#checkoutForm', function (e) {
-            e.preventDefault(); // Prevent the default form submission
+        var iframeId = '@Configuration["PaymobSettings:IframeId"]';
 
-            const form = $(this); // Reference to the form
-            const url = form.attr('action'); // Get the action URL
-            const formData = form.serialize(); // Serialize form data for submission
+        $("#checkoutForm").submit(function (e) {
+            e.preventDefault();
+            var form = $(this);
+            var paymentMethod = $('#PaymentMethod').val();
+
+            // Show loading
+            Swal.fire({
+                title: 'Processing Order...',
+                text: 'Please wait',
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading()
+                }
+            });
 
             $.ajax({
-                url: url,
-                type: 'POST', // Use POST for form submission
-                data: formData, // Send serialized form data
+                url: form.attr('action'),
+                type: 'POST',
+                data: form.serialize(),
                 success: function (response) {
-                    if (response.success) {
-                        Swal.fire({
-                            toast: true,
-                            position: 'center', // Position the alert in the top-right corner
-                            icon: 'success',
-                            title: response.message || 'Order placed successfully!',
-                            showConfirmButton: false,
-                            timer: 2000, // Auto-dismiss after 2 seconds
-                            timerProgressBar: true
-                        });
+                    Swal.close();
 
-                        // Redirect to another page if needed (e.g., Order Confirmation)
-                        setTimeout(() => {
-                            window.location.href = '/Home';
-                        }, 2000);
+                    if (response.success) {
+                        if (response.requiresPayment && paymentMethod === 'Visa') {
+                            // Show payment modal with Paymob iframe
+                            showPaymentModal(response.paymentToken, response.orderId);
+                        } else {
+                            // Cash order success
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Order Placed!',
+                                text: response.message,
+                                timer: 2000,
+                                showConfirmButton: false
+                            });
+                            setTimeout(() => window.location.href = '/Home', 2000);
+                        }
                     } else {
                         Swal.fire({
                             icon: 'error',
-                            title: 'Oops...',
-                            text:'Failed to place the order. Please try again.'
+                            title: 'Order Failed',
+                            text: response.message
                         });
                     }
                 },
-                error: function (xhr, status, error) {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'An error occurred',
-                        text: 'Unable to process your request. Please try again later.'
-                    });
+                error: function () {
+                    Swal.close();
+                    Swal.fire('Error', 'Unable to process your request. Please try again.', 'error');
                 }
             });
         });
-    </script>
 
+        function showPaymentModal(paymentToken, orderId) {
+            var iframeUrl = `https://accept.paymob.com/api/acceptance/iframes/${iframeId}?payment_token=${paymentToken}`;
+            var iframe = `<iframe src="${iframeUrl}" width="100%" height="100%" frameborder="0"></iframe>`;
+
+            $('#payment-iframe-container').html(iframe);
+            $('#paymentModal').modal('show');
+
+            // Listen for payment completion messages
+            window.addEventListener('message', function(event) {
+                if (event.origin !== 'https://accept.paymob.com') return;
+
+                if (event.data.type === 'payment.success') {
+                    $('#paymentModal').modal('hide');
+                    window.location.href = `/Payment/PaymentSuccess/${orderId}`;
+                } else if (event.data.type === 'payment.error') {
+                    $('#paymentModal').modal('hide');
+                    window.location.href = `/Payment/PaymentFailed/${orderId}`;
+                }
+            });
+        }
+    </script>
 }

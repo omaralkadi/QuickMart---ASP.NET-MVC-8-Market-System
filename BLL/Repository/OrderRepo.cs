@@ -18,13 +18,18 @@ namespace BLL.Repository
             _quickMartContext = quickMartContext;
         }
 
-        public async Task<List<Order>> GetOrdersByUserIdAsync(string userId)
+        public async Task<Order> GetByPaymentOrderId(string id)
         {
-            return await _quickMartContext.Orders
-            .Include(o => o.OrderItems)
+            return await _quickMartContext.Orders.FirstOrDefaultAsync(o => o.PaymobOrderId == id);
+        }
+
+        public async Task<IEnumerable<Order>> GetOrdersByUserIdAsync(string userId)
+        {
+            return _quickMartContext.Orders.
+                Where(o => o.UserId == userId)
+                .Include(o => o.OrderItems)
                 .ThenInclude(oi => oi.Product)
-            .Where(o => o.UserId == userId)
-            .ToListAsync();
+                .OrderByDescending(d => d.OrderDate);
         }
     }
 }

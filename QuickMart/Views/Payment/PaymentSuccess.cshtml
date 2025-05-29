@@ -1,0 +1,53 @@
+﻿@using DAL.Entities
+@model Order
+@{
+    ViewData["Title"] = "Payment Successful";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-success">
+                <div class="card-header bg-success text-white text-center">
+                    <h2><i class="fas fa-check-circle"></i> Payment Successful!</h2>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <h4 class="text-success">Thank you for your order!</h4>
+                        <p class="lead">Your payment has been processed successfully.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Order Details:</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Order ID:</strong> #@Model.Id</li>
+                                <li><strong>Order Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</li>
+                                <li><strong>Total Amount:</strong> @Model.TotalPrice.ToString("C")</li>
+                                <li><strong>Payment Status:</strong> <span class="badge badge-success">@Model.PaymentStatus</span></li>
+                                @if (!string.IsNullOrEmpty(Model.PaymobTransactionId))
+                                {
+                                    <li><strong>Transaction ID:</strong> @Model.PaymobTransactionId</li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Shipping Details:</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Billing Address:</strong> @Model.BillingAddress</li>
+                                <li><strong>Shipping Address:</strong> @Model.ShippingAddress</li>
+                                <li><strong>Phone:</strong> @Model.Phone</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a href="/Home" class="btn btn-primary">Continue Shopping</a>
+                        <a href="/Order" class="btn btn-secondary">View My Orders</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -27,6 +27,10 @@ namespace QuickMart
             builder.Services.AddScoped<ICartItemRepo, CartItemRepo>();
             builder.Services.AddScoped<IOrderItemRepo, OrderItemRepo>();
             builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+
+            builder.Services.AddHttpClient<IPaymobService, PaymobService>();
+            builder.Services.AddScoped<IPaymobService, PaymobService>();
+
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
@@ -36,6 +40,19 @@ namespace QuickMart
                 options.Password.RequireNonAlphanumeric = false;
             }).AddEntityFrameworkStores<QuickMartContext>().AddDefaultTokenProviders();
 
+            QuestPDF.Settings.License = QuestPDF.Infrastructure.LicenseType.Community;
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder =>
+                    {
+                        builder
+                            .AllowAnyOrigin()  
+                            .AllowAnyHeader()  
+                            .AllowAnyMethod(); 
+                    });
+            });
 
             builder.Services.ConfigureApplicationCookie(options =>
             {
@@ -47,6 +64,8 @@ namespace QuickMart
 
             await SeedingData.SeedData(app);
 
+            app.UseCors("AllowAllOrigins");
+
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
@@ -55,7 +74,7 @@ namespace QuickMart
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();

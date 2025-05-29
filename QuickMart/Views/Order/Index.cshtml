@@ -41,6 +41,8 @@
                                         <th>Quantity</th>
                                         <th>Price</th>
                                         <th>Total</th>
+                                        <th>Payment</th>
+                                        <th>Shipping Address</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -54,6 +56,8 @@
                                             <td>@item.Quantity</td>
                                             <td>@item.Price.ToString("C")</td>
                                             <td>@(item.Quantity * item.Price)</td>
+                                            <td>@(item.Order.PaymentStatus)</td>
+                                            <td>@(item.Order.BillingAddress)</td>
                                         </tr>
                                     }
                                 </tbody>
@@ -63,6 +67,17 @@
                 </div>
             }
         </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-4">
+                @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                    </li>
+                }
+            </ul>
+        </nav>
     }
 </div>
 

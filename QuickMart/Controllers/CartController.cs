@@ -3,6 +3,8 @@ using DAL.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using QuickMart.Models.Payment;
 using QuickMart.ViewModels;
 using System.Security.Claims;
 
@@ -13,11 +15,13 @@ namespace QuickMart.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IConfiguration _configuration;
 
-        public CartController(IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager)
+        public CartController(IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager, IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
             _userManager = userManager;
+            _configuration = configuration;
         }
 
         public async Task<IActionResult> Index()
@@ -37,7 +41,7 @@ namespace QuickMart.Controllers
                 await _unitOfWork.Complete();
             }
 
-            var cartItems =await _unitOfWork.CartItemRepo.GetAllAsync();
+            var cartItems = await _unitOfWork.CartItemRepo.GetAllAsync();
 
             var userCartItems = cartItems.Where(c => c.CartId == userCart.Id);
 
@@ -95,7 +99,7 @@ namespace QuickMart.Controllers
         }
         public async Task<IActionResult> InCreaseQuntity(int cartItemId)
         {
-           var cartItem = await _unitOfWork.CartItemRepo.GetById(cartItemId);
+            var cartItem = await _unitOfWork.CartItemRepo.GetById(cartItemId);
             cartItem.Quantity++;
             _unitOfWork.CartItemRepo.Update(cartItem);
             await _unitOfWork.Complete();
@@ -142,11 +146,11 @@ namespace QuickMart.Controllers
             return View(checkoutViewModel);
         }
 
+
         [HttpPost]
         public async Task<IActionResult> Checkout(CheckoutViewModel model)
         {
-
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Get the logged-in user's ID
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var cartItems = await _unitOfWork.CartRepo.GetCartItemsByUserIdAsync(userId);
 
             if (!cartItems.Any())
@@ -155,22 +159,27 @@ namespace QuickMart.Controllers
                 return RedirectToAction("Index");
             }
 
-            // Create the order
+            // Calculate the total price
+            var totalPrice = cartItems.Sum(c => c.Quantity * c.Product.Price);
+
+            // Create the order object (order details can be adjusted as needed)
             var order = new Order
             {
                 UserId = userId,
-                TotalPrice = cartItems.Sum(c => c.Quantity * c.Product.Price),
+                TotalPrice = totalPrice,
                 OrderDate = DateTime.Now,
                 BillingAddress = model.BillingAddress,
                 ShippingAddress = model.ShippingAddress,
                 Phone = model.Phone,
-                PaymentMethod = model.PaymentMethod // Store the payment method
+                PaymentMethod = model.PaymentMethod,
+                PaymentStatus = "Pending",
+
             };
 
             await _unitOfWork.OrderRepo.Add(order);
+
             await _unitOfWork.Complete();
 
-            // Create order items
             foreach (var cartItem in cartItems)
             {
                 var orderItem = new OrderItem
@@ -180,22 +189,55 @@ namespace QuickMart.Controllers
                     Quantity = cartItem.Quantity,
                     Price = cartItem.Product.Price
                 };
-
                 await _unitOfWork.OrderItemRepo.Add(orderItem);
             }
-
             await _unitOfWork.Complete();
 
-            // Clear the user's cart
-            foreach (var cartItem in cartItems)
+            // Handle different payment methods
+            if (model.PaymentMethod == "Cash")
             {
-                _unitOfWork.CartItemRepo.Delete(cartItem);
+                await _unitOfWork.Complete();
+
+                foreach (var cartItem in cartItems)
+                {
+                    _unitOfWork.CartItemRepo.Delete(cartItem);
+                }
+                await _unitOfWork.Complete();
+
+                return Json(new { success = true, message = "Order Placed Successfully (Cash on Delivery)" });
+            }
+            else if (order.PaymentMethod == "Visa")
+            {
+                try
+                {
+                    var user = await _userManager.FindByIdAsync(userId);
+                    var paymentResult = await _unitOfWork.PaymobService.CreatePaymentTokenAsync(order, user);
+
+                    // Store payment token in order
+                    order.PaymentToken = paymentResult.PaymentToken;
+                    order.PaymobOrderId=paymentResult.PaymobOrderId;
+
+                    await _unitOfWork.Complete();
+
+                    return Json(new
+                    {
+                        success = true,
+                        requiresPayment = true,
+                        paymentToken = paymentResult.PaymentToken,
+                        orderId = order.Id,
+                        message = "Redirecting to payment..."
+                    });
+                }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Payment initialization failed: " + ex.Message });
+                }
             }
 
-            await _unitOfWork.Complete();
+            return Json(new { success = false, message = "Invalid payment method" });
 
-            return Json(new { success = true, message = "Order Placed Successfully" });
         }
+
     }
 }
 

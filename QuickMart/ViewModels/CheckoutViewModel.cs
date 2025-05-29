@@ -10,5 +10,7 @@ namespace QuickMart.ViewModels
         public string ShippingAddress { get; set; }
         public string Phone { get; set; }
         public string PaymentMethod { get; set; } // "Visa" or "Cash"
+        public string StripePaymentMethodId { get; set; } // Holds the PaymentMethod ID from Stripe
+
     }
 }

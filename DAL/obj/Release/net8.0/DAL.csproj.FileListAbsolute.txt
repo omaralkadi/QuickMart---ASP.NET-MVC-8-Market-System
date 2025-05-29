@@ -1,0 +1,13 @@
+D:\QuickMartProject\QuickMart\DAL\bin\Release\net8.0\DAL.deps.json
+D:\QuickMartProject\QuickMart\DAL\bin\Release\net8.0\DAL.dll
+D:\QuickMartProject\QuickMart\DAL\bin\Release\net8.0\DAL.pdb
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.csproj.AssemblyReference.cache
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.AssemblyInfoInputs.cache
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.AssemblyInfo.cs
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.sourcelink.json
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.dll
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\refint\DAL.dll
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\DAL.pdb
+D:\QuickMartProject\QuickMart\DAL\obj\Release\net8.0\ref\DAL.dll

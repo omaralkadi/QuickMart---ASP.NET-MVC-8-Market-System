@@ -14,6 +14,7 @@ namespace BLL.Interface
         public ICartItemRepo CartItemRepo { get; }
         public IOrderRepo OrderRepo { get; }
         public IOrderItemRepo OrderItemRepo { get; }
+        public IPaymobService PaymobService { get; }
         public Task<int> Complete();
     }
 }

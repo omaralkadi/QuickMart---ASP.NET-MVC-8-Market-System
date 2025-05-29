@@ -9,6 +9,9 @@ namespace BLL.Interface
 {
     public interface IOrderRepo:IGenericRepository<Order>
     {
-        Task<List<Order>> GetOrdersByUserIdAsync(string userId);
+        Task<IEnumerable<Order>> GetOrdersByUserIdAsync(string userId);
+
+        public Task<Order> GetByPaymentOrderId(string id);
+
     }
 }
