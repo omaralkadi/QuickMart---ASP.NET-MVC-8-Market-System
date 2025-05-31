@@ -15,6 +15,8 @@ To Build This Project I Used:
 
 5-MS SQl Server To Storage Data And Entity FrameWork Core To Represent database Tables And Linq Operators To Make Queries On Data 
 
+6-Create Reports using QuestPdf
+
 6- Payment Integration With Paymob
 
 

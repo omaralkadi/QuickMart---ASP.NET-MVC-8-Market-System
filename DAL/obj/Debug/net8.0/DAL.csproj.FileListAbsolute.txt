@@ -37,3 +37,16 @@ C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Qui
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\bin\Debug\net8.0\DAL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\bin\Debug\net8.0\DAL.pdb
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\DAL.pdb
+D:\QuickMartProject with paymob integraion\QuickMart\DAL\obj\Debug\net8.0\ref\DAL.dll

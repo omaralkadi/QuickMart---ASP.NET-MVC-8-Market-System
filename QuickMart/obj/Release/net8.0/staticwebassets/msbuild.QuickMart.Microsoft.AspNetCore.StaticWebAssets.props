@@ -288,6 +288,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\Images\76993fd7-aae9-4d99-b022-56ef792a2951-DEll.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\Images\785bca72-ac6b-4faa-9b92-1ab0ce07785d-download .png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuickMart</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuickMart</BasePath>
+      <RelativePath>Files/Images/785bca72-ac6b-4faa-9b92-1ab0ce07785d-download .png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qelcr3nupm</Fingerprint>
+      <Integrity>njFcc8fp0kmLqO+6aC/T5geNPEqs4D0mj9txTegwSEc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\Images\785bca72-ac6b-4faa-9b92-1ab0ce07785d-download .png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\Images\79e16171-ebcc-4982-9067-6e5c94c9a9ef-6818210.png'))">
       <SourceType>Package</SourceType>
       <SourceId>QuickMart</SourceId>

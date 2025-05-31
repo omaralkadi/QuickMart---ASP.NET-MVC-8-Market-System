@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YgiaOx4vRB0=",
+  "dgSpecHash": "TIR9eiPnZtE=",
   "success": true,
-  "projectFilePath": "D:\\QuickMartProject\\QuickMart\\QuickMart\\QuickMart.csproj",
+  "projectFilePath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\QuickMart.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -129,6 +129,7 @@
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Omar-ElQady\\.nuget\\packages\\questpdf\\2025.5.0\\questpdf.2025.5.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",

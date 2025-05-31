@@ -1,355 +1,359 @@
 {
   "Files": [
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\QuickMart.bundle.scp.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\QuickMart.bundle.scp.css",
       "PackagePath": "staticwebassets\\QuickMart.00xmncpgbc.bundle.scp.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signin-image.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signin-image.jpg",
       "PackagePath": "staticwebassets\\AccountImages\\signin-image.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signin-image1.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signin-image1.jpg",
       "PackagePath": "staticwebassets\\AccountImages\\signin-image1.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signup-image.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signup-image.jpg",
       "PackagePath": "staticwebassets\\AccountImages\\signup-image.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signup-image1.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\AccountImages\\signup-image1.jpg",
       "PackagePath": "staticwebassets\\AccountImages\\signup-image1.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\17deb125-3d55-4997-8bb8-616fb24c17f7-download .png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\17deb125-3d55-4997-8bb8-616fb24c17f7-download .png",
       "PackagePath": "staticwebassets\\Files\\Images\\17deb125-3d55-4997-8bb8-616fb24c17f7-download .png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\24ad657e-39c1-42c2-b643-772e115ac974-815uX7wkOZS._AC_SL1500_.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\24ad657e-39c1-42c2-b643-772e115ac974-815uX7wkOZS._AC_SL1500_.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\24ad657e-39c1-42c2-b643-772e115ac974-815uX7wkOZS._AC_SL1500_.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\2690ff6e-50ec-4dcd-8c24-321a9167e23d-Oppo.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\2690ff6e-50ec-4dcd-8c24-321a9167e23d-Oppo.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\2690ff6e-50ec-4dcd-8c24-321a9167e23d-Oppo.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\3c0ef95c-b44e-4cb1-a5d4-f466131a75ec-71cdlw1zCZL._AC_SL1500_.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\3c0ef95c-b44e-4cb1-a5d4-f466131a75ec-71cdlw1zCZL._AC_SL1500_.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\3c0ef95c-b44e-4cb1-a5d4-f466131a75ec-71cdlw1zCZL._AC_SL1500_.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\4481f0e9-d65e-437c-80ce-13e693d81550-download .png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\4481f0e9-d65e-437c-80ce-13e693d81550-download .png",
       "PackagePath": "staticwebassets\\Files\\Images\\4481f0e9-d65e-437c-80ce-13e693d81550-download .png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\588f32bd-22bc-446b-9d78-b5c851afac73-download.png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\588f32bd-22bc-446b-9d78-b5c851afac73-download.png",
       "PackagePath": "staticwebassets\\Files\\Images\\588f32bd-22bc-446b-9d78-b5c851afac73-download.png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\6552cabf-536d-431f-85d2-5b0bb9d259d8-Oppo.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\6552cabf-536d-431f-85d2-5b0bb9d259d8-Oppo.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\6552cabf-536d-431f-85d2-5b0bb9d259d8-Oppo.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\76993fd7-aae9-4d99-b022-56ef792a2951-DEll.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\76993fd7-aae9-4d99-b022-56ef792a2951-DEll.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\76993fd7-aae9-4d99-b022-56ef792a2951-DEll.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\79e16171-ebcc-4982-9067-6e5c94c9a9ef-6818210.png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\785bca72-ac6b-4faa-9b92-1ab0ce07785d-download .png",
+      "PackagePath": "staticwebassets\\Files\\Images\\785bca72-ac6b-4faa-9b92-1ab0ce07785d-download .png"
+    },
+    {
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\79e16171-ebcc-4982-9067-6e5c94c9a9ef-6818210.png",
       "PackagePath": "staticwebassets\\Files\\Images\\79e16171-ebcc-4982-9067-6e5c94c9a9ef-6818210.png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\84b55bbb-fd8e-4642-84d7-9b2406a11100-Computer1.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\84b55bbb-fd8e-4642-84d7-9b2406a11100-Computer1.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\84b55bbb-fd8e-4642-84d7-9b2406a11100-Computer1.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\8f6a4732-d8d8-4900-a4cb-b4baa8372e28-71BYe56UKSL.__AC_SX300_SY300_QL70_FMwebp_.webp",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\8f6a4732-d8d8-4900-a4cb-b4baa8372e28-71BYe56UKSL.__AC_SX300_SY300_QL70_FMwebp_.webp",
       "PackagePath": "staticwebassets\\Files\\Images\\8f6a4732-d8d8-4900-a4cb-b4baa8372e28-71BYe56UKSL.__AC_SX300_SY300_QL70_FMwebp_.webp"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\b7e70dbc-ce8b-4e55-af37-a4ebc9273e53-51SKNlLsRBL.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\b7e70dbc-ce8b-4e55-af37-a4ebc9273e53-51SKNlLsRBL.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\b7e70dbc-ce8b-4e55-af37-a4ebc9273e53-51SKNlLsRBL.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\ba58ca08-4bfe-4156-ad56-4136062fc29d-Computer4.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\ba58ca08-4bfe-4156-ad56-4136062fc29d-Computer4.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\ba58ca08-4bfe-4156-ad56-4136062fc29d-Computer4.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\c126439f-b1ed-4a20-9bb7-eef0479d03a5-iPhone_16.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\c126439f-b1ed-4a20-9bb7-eef0479d03a5-iPhone_16.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\c126439f-b1ed-4a20-9bb7-eef0479d03a5-iPhone_16.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\c515f3db-f2a8-4469-8901-dd1b53d858cd-download .png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\c515f3db-f2a8-4469-8901-dd1b53d858cd-download .png",
       "PackagePath": "staticwebassets\\Files\\Images\\c515f3db-f2a8-4469-8901-dd1b53d858cd-download .png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\d11de82d-3def-497d-9d7e-2c14ae9be32a-download.png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\d11de82d-3def-497d-9d7e-2c14ae9be32a-download.png",
       "PackagePath": "staticwebassets\\Files\\Images\\d11de82d-3def-497d-9d7e-2c14ae9be32a-download.png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\e1108abe-f4d9-4a8b-a4ff-8a1f89d284ac-51SKNlLsRBL.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\e1108abe-f4d9-4a8b-a4ff-8a1f89d284ac-51SKNlLsRBL.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\e1108abe-f4d9-4a8b-a4ff-8a1f89d284ac-51SKNlLsRBL.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\e2b74fa7-4891-499f-a81e-4b4825a54561-Computer3.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\e2b74fa7-4891-499f-a81e-4b4825a54561-Computer3.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\e2b74fa7-4891-499f-a81e-4b4825a54561-Computer3.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\ef7b900b-4339-4d2e-a8d4-47d1b16f740c-718vx6tGMjL._AC_SL1500_.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\ef7b900b-4339-4d2e-a8d4-47d1b16f740c-718vx6tGMjL._AC_SL1500_.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\ef7b900b-4339-4d2e-a8d4-47d1b16f740c-718vx6tGMjL._AC_SL1500_.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\f0050483-ba15-4cbe-a344-be0d3491629e-6818210.png",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\f0050483-ba15-4cbe-a344-be0d3491629e-6818210.png",
       "PackagePath": "staticwebassets\\Files\\Images\\f0050483-ba15-4cbe-a344-be0d3491629e-6818210.png"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\fd1b130c-2458-4b50-b895-2795917b340e-iphone-15.jpg",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\Files\\Images\\fd1b130c-2458-4b50-b895-2795917b340e-iphone-15.jpg",
       "PackagePath": "staticwebassets\\Files\\Images\\fd1b130c-2458-4b50-b895-2795917b340e-iphone-15.jpg"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\css\\site.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\css\\style.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\css\\style.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\css\\style.css.map",
       "PackagePath": "staticwebassets\\css\\style.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\favicon.ico",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\js\\site.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\QuickMartProject\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

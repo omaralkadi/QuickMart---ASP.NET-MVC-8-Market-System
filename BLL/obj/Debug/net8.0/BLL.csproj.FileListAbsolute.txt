@@ -84,3 +84,38 @@ C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\Qui
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
 C:\Users\Omar-ElQady\OneDrive - Faculty of Computers and Information\Desktop\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\LatoFont\OFL.txt
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\BLL.pdb
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\DAL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\bin\Debug\net8.0\DAL.pdb
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\BLL.pdb
+D:\QuickMartProject with paymob integraion\QuickMart\BLL\obj\Debug\net8.0\ref\BLL.dll

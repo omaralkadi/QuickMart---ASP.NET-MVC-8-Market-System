@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QuickMartProject\\QuickMart\\QuickMart\\QuickMart.csproj": {}
+    "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\QuickMart.csproj": {}
   },
   "projects": {
-    "D:\\QuickMartProject\\QuickMart\\BLL\\BLL.csproj": {
+    "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuickMartProject\\QuickMart\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\QuickMartProject\\QuickMart\\BLL\\BLL.csproj",
+        "projectPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-        "outputPath": "D:\\QuickMartProject\\QuickMart\\BLL\\obj\\",
+        "outputPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\QuickMartProject\\QuickMart\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\QuickMartProject\\QuickMart\\DAL\\DAL.csproj"
+              "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\DAL.csproj"
               }
             }
           }
@@ -48,11 +48,21 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -78,14 +88,14 @@
         }
       }
     },
-    "D:\\QuickMartProject\\QuickMart\\DAL\\DAL.csproj": {
+    "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuickMartProject\\QuickMart\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\QuickMartProject\\QuickMart\\DAL\\DAL.csproj",
+        "projectPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-        "outputPath": "D:\\QuickMartProject\\QuickMart\\DAL\\obj\\",
+        "outputPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -118,7 +128,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -153,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -162,14 +172,14 @@
         }
       }
     },
-    "D:\\QuickMartProject\\QuickMart\\QuickMart\\QuickMart.csproj": {
+    "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\QuickMart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuickMartProject\\QuickMart\\QuickMart\\QuickMart.csproj",
+        "projectUniqueName": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\QuickMart.csproj",
         "projectName": "QuickMart",
-        "projectPath": "D:\\QuickMartProject\\QuickMart\\QuickMart\\QuickMart.csproj",
+        "projectPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\QuickMart.csproj",
         "packagesPath": "C:\\Users\\Omar-ElQady\\.nuget\\packages\\",
-        "outputPath": "D:\\QuickMartProject\\QuickMart\\QuickMart\\obj\\publish\\win-x86\\",
+        "outputPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\QuickMart\\obj\\publish\\win-x86\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,8 +200,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\QuickMartProject\\QuickMart\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\QuickMartProject\\QuickMart\\BLL\\BLL.csproj"
+              "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj"
               }
             }
           }
@@ -206,7 +216,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -225,6 +235,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -246,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

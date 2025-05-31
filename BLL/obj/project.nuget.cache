@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RJ3Jll4mn20=",
+  "dgSpecHash": "o1Ls8o+0dqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omar-ElQady\\OneDrive - Faculty of Computers and Information\\Desktop\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\QuickMartProject with paymob integraion\\QuickMart\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Omar-ElQady\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
